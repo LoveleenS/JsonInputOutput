@@ -37,8 +37,6 @@ if ('development' == app.get('env')) {
 }
 app.get('/', function(req, res, next) {
 
-    var pr = req.params.name;
-    console.log('pr' + pr);
     res.render("index.html");
 });
 

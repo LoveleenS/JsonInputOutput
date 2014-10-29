@@ -9,10 +9,11 @@
   "author": "Loveleen",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "express": "~4.5.1",
-    "mongoose":"~3.8.15",
-    "body-parser" : "~1.4.2",
+  "express": "~4.5.1",
+  "mongoose":"~3.8.15",
+  "body-parser" : "~1.4.2",
 	"method-override" : "~2.0.2",
+  "ejs" : "*",
 	"morgan": "~1.0.0"
   },
   "devDependencies": {
