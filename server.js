@@ -94,7 +94,7 @@ app.post('/', function(req, res, next) {
     }
 
     //res.resp = finalResp;
-
+    res.set('Content-Type', 'application/json');
     res.json(finalResp);
 
 
